@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Blog</title>
+		<meta charset="utf-8">
+		<meta name="description" value="We offer you the latest tech news, join us today and never be left behind on the latest happenings in the tech world.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://kit.fontawesome.com/ee9c1ed510.js" crossorigin="anonymous"></script>
+	</head>
+	<body class="cv-page">
+		<header class="draw-down">
+			<h1>FxDon</h1>
+			<button class="fa fa-bars menu-btn"></button>
+			<button class="fa fa-user-o client-btn"></button>
+			<div id="client-info">
+			    <a href="login.html">Sign In</a>
+			    <a href="signup.html">Sign Up</a>
+			</div>
+			<nav class="main-nav" id="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="services-drop-down">
+					    <span class="services-btn">Services<span class="fa fa-angle-down drop-down-indecator btn-icon-right-end"></span></span>
+					    <div class="services-drop-content" id="services">
+					        <a href="webdev.html">Order a Website</a>
+					        <a href="forex.html">Invest in FOREX</a>
+					        <a href="mql5.html">Build a FOREX Bot</a>
+					        <a href="debug.html">Debug your Code</a>
+					    </div>
+					</li>
+					<li><a class="active" href="blog.html">Blog</a></li>
+					<li><a href="cv.html">CV</a></li>
+				</ul>
+			</nav>
+		</header>
+	    <main class="central">
+	        <h1>Comming Soon</h1>
+	    </main>
+	    <footer>
+	    	<section>
+	    		<div class="footer-menu">
+	    		    <a href="index.html"><h2>FxDon</h2></a>
+	    		    <a href="index.html"><span class="fa fa-home btn-icon"></span>Home</a>
+	    		    <div class="footer-serv-drop-down">
+	    		        <span><span class="fa fa-cogs btn-icon"></span>Services<span class="fa fa-angle-down drop-down-indecator btn-icon-right-end"></span></span>
+	    		        <div class="footer-serv-drop-content">
+					        <a href="webdev.html"><span class="fa fa-code btn-icon"></span>Order a Website</a>
+					        <a href="forex.html"><span class="fa fa-line-chart btn-icon"></span>Invest in FOREX</a>
+					        <a href="mql5.html"><span class="fa fa-robot btn-icon"></span>Build a FOREX Bot</a>
+					        <a href="debug.html"><span class="fa fa-bug btn-icon"></span>Debug your Code</a>
+	    		        </div>
+	    		    </div>
+	    		    <a href="blog.html"><span class="fa fa-blog btn-icon"></span>Blog</a>
+	    		    <a href="cv.html"><span class="fa fa-book btn-icon"></span>CV</a>
+	    		</div>
+	    		<div class="comp-sugg">
+	    			<!--<h3>Suggestions / Complaints</h3>-->
+	    			<form method="POST">
+	    			    <fieldset class="compSugg">
+	    			        <legend>Suggestions / Complaints</legend>
+	    			        <label for="fName">First Name:</label>
+	    			        <input type="text" name="fName" id="fName" placeholder="First Name"/>
+	    			        <label for="lName">Last Name:</label>
+	    			        <input type="text" name="lName" id="lName" placeholder="Last Name"/>
+	    			        <label for="email">Email:</label>
+	    			        <input type="email" name="email" id="email" placeholder="you@email.com"/>
+	    			        <div>
+	    			        	<div>
+	    			        		<label for="suggestions">Suggestions:</label>
+	    			        	</div>
+	    			        	<div>
+	    			        		<input type="radio" name="suggCompType" value="suggestions" onclick="setSuggComp()" style="height: 25px;" id="suggestions"/>
+	    			        	</div>
+	    			        </div>
+	    			        <div>
+	    			        	<div>
+	    			        		<label for="complaints">Complaints:</label>
+	    			        	</div>
+	    			        	<div>
+	    			        		<input type="radio" name="suggCompType" value="complaints" onclick="setSuggComp()" style="height: 25px;" id="complaints"/>
+	    			        	</div>
+	    			        </div>
+	    			        <textarea id="suggContent" name="suggContent" rows="10" placeholder="Enter your suggestions here"></textarea>
+	    			        <button type="submit" name="submit">Submit</button>
+	    			    </fieldset>
+	    			</form>
+	    		</div>
+	    		<div class="contact">
+	    			<h3>Contact Us</h3>
+	            	<p><span class="fa fa-map-pin btn-icon"></span>University of Nigeria Nsukka, Enugu</p>
+	            	<p><span class="fa fa-phone btn-icon"></span>+234 9063329260</p>
+	            	<p><span class="fa fa-envelope btn-icon"></span>Fxdon.ace@gmail.com</p>
+	            	<a href="https://wa.me/qr/TMAA5B2P2KSTH1"><span class="fa fa-whatsapp btn-icon"></span>Whatsapp</a>
+	            	<a href="https://www.facebook.com/share/1CZxXyiDmL/?mibextid=qi2Omg"><span class="fa fa-facebook btn-icon"></span>Facebook</a>
+	            	<a href="https://www.instagram.com/00fxdon?igsh=Y3VlZTg5ZXJxNzdw"><span class="fa fa-instagram btn-icon"></span>Instagram</a>
+	    		</div>
+	    	</section><hr/>
+	    	<p>&copy Copyright FxDon 2025</p>
+	    </footer>
+	</body>
+	<script type="text/javascript" src="js/script.js"></script>
+</html>
